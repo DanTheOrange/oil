@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Oil Calculator</title>
+</head>
+<body>
+    <h1>Console oils study</h1>
+    <h2>Formula</h2>
+    <label style="display: block;">
+        <input type="number" name="pressure" id="pressure">
+        Pressure (P) (Pa)
+    </label>
+    <label style="display: block;">
+        <input type="number" name="sg" id="sg">
+        Specific Gravity (SG)
+    </label>
+    <label style="display: block;">
+        <input type="number" name="gravity" id="gravity" value="9.81061">
+        Gravity (SG)<sub>(default calculated for Consols oil)</sub>
+    </label>
+    <label style="display: block;">
+        <input type="number" name="gravity" id="gravity" value="9.81061">
+        Gravity (SG)<sub>(default calculated for Consols oil)</sub>
+    </label>
+    <p>Volume: <span id="output" style="font-weight: bold;"></span></p>
+
+    <hr>
+    <h2>Definitions</h2>
+    <dl>
+        <dt>Consols oil latitude (from google)</dt>
+        <dd>50.23073604</dd>
+        <dt>Consols oil altitude (from google)</dt>
+        <dd>98m</dd>
+        <dt>Formula to work out level</dt>
+        <dd>L = P / (ρ x g)</dd>
+        <dt>Formula to work out density</dt>
+        <dd>ρ = ρ0 x SG</dd>
+        <dt>Volume of a cylinder</dt>
+        <dd>V = (πr2) x h</dd>
+        <dt>L</dt>
+        <dd>Liquid height</dd>
+        <dt>P</dt>
+        <dd>Pressure</dd>
+        <dt>g</dt>
+        <dd>local gravity (e.g. standard = 9.80665ms-2)</dd>
+        <dt>ρ</dt>
+        <dd>Density of liquid</dd>
+        <dt>ρ0</dt>
+        <dd>Density of fresh water (1000 kgm<sup>-3</sup> @4°C)</dd>
+        <dt>SG</dt>
+        <dd>Specific gravity of liquid (e.g. fresh water = 1)</dd>
+    </dl>
+
+    <h2>Sources</h2>
+    <ul>
+        <li>https://www.sensorsone.com/pressure-to-liquid-level-calculator/</li>
+        <li>https://www.sensorsone.com/local-gravity-calculator/</li>
+    </ul>
+
+
+    <script type="text/javascript">
+
+    </script>
+</body>
+</html>
